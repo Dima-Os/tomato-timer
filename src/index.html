@@ -8,19 +8,19 @@
     
   <body>
     <section class="timer-display">
-      <ul class="timer" id="timer-1">
-        <li class="field">
-          <span class="value" data-value="mins">11</span>
-          <span class="label">Minutes</span>
+      <ul class="timer" >
+        <li class="timer__field">
+          <span class="timer__value" data-value="mins">25</span>
+          <span class="timer__label">Minutes</span>
         </li>
-        <li class="field">
-          <span class="value" data-value="secs">11</span>
-          <span class="label">Seconds</span>
+        <li class="timer__field">
+          <span class="timer__value" data-value="secs">00</span>
+          <span class="timer__label">Seconds</span>
         </li>
       </ul>
       <div class="buttons-wrapper">
-        <button class="start-btn">Start</button>
-        <button class="clear-btn">Clear</button>
+        <button class="start-pause-btn"> <span>Start</span> </button>
+        <button class="clear-btn" disabled="disabled"> <span>Clear</span> </button>
       </div>
     </section>
   </body>
